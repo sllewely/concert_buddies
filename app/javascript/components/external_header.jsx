@@ -9,7 +9,7 @@ const ExternalHeader = props => {
                     <div className="header__left">
                         <Link to="/" className="header__left">
                             <i className="material-icons md-48 md-blue">event_seat</i>
-                            <h2 className="header__title fancy_header">Concert Buddies</h2>
+                            <h2 className="header__title fancy_header">Event Buddies</h2>
                         </Link>
                     </div>
                     <div className="header__right">

@@ -111,3 +111,16 @@ main {
 .header {
     font-family: 'Oleo Script', cursive;
 }
+
+.main_page {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 800%;
+}
+
+h2 {
+    font-size: xx-large;
+}

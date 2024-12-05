@@ -9,6 +9,10 @@ class Home extends React.Component {
         return (
             <div>
                 <ExternalHeader/>
+                <div className="main_page">
+                    <h1 className="fancy_header">Event Buddies</h1>
+                    <h2>Upgrade Your Friendships</h2>
+                </div>
                 <LoginForm/>
             </div>
         );

@@ -59,12 +59,14 @@ class SignupForm extends React.Component {
     return (
       <div>
         <ExternalHeader/>
-        <div className="auth-form-container">
-          <h1 className="auth-form-title">
+        <div class="main_page">
+          <h2>
             Concert Buddies is in Beta. An invite code is required.
-          </h1>
+          </h2>
+        </div>
+        <div className="auth-form-container">
           <form className="auth-form" onSubmit={e => this.handleSubmit(e)}>
-            <h2>Create An Account</h2>
+            <h2 className="header">Create An Account</h2>
             {this.props.errors.map((error, idx) => (
               <li className="auth-form-error" key={idx}>
                 {error}

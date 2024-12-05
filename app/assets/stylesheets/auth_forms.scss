@@ -3,15 +3,17 @@
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
-  margin: 5px;
-  padding: 5px;
+  margin: 30px;
+  padding: 30px;
+  border-radius:30px;
 }
 
 .auth-field {
   border: 1px solid darkgrey;
   margin: 5px;
   padding: 5px;
-  border-radius: 20%;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
 .auth-form-container {
@@ -21,14 +23,15 @@
 }
 
 .auth-submit {
-  border: 1px solid darkgrey;
-  padding: 3px;
-  border-radius: 3px;
-  background-color: #c7ebeb;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 40px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #d5f0cb;
 }
 
 .auth-submit:hover {
-  background-color: #8bd8d8;
+  background-color: #acc2a4;
   color: white;
 }
 
